@@ -1,5 +1,5 @@
 from pydantic.types import ConstrainedStr
-from models import ingreso
+from models import egreso
 from pydantic import BaseModel
 from typing import Dict
 
@@ -25,8 +25,8 @@ database_ingresos = {
                             "tipo": "inversion",
                             "valor": 0,
                             "constante": False}),
-
 }
+
 generator = {'id': 102}
 
 
